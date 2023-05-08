@@ -1,0 +1,153 @@
+
+/*General*/
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*header*/
+
+header{
+    display: flex;
+    background-color: #242415bb;
+    height: 20vh;
+    font-family: 'MedievalSharp', cursive;
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 33.33vw;
+    padding-left: 10px ;
+    font-size: 1.3em;
+
+}
+
+.imagen-logo{
+    width: 33.33vw;
+}
+
+.imagen-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.div-nav{
+    width: 33.33vw;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    font-size: 1.3em;
+    padding-left: 12px;
+}
+
+.nav li{
+    padding-left: 35px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+}
+
+.link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:  rgba(0, 0, 0, 0.275);
+    transition: width .3s;
+}
+
+.link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+/*cuerpo*/
+
+.cuerpo-pagina{
+    display: flex;
+    background-image:url("img/fondo.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+}
+
+/* Personajes*/
+
+
+.cuerpo-pagina-personajes{
+    display: flex;
+    justify-content: center;
+    background-image:url("img/fondo.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+}
+
+.info-personajes{   
+    width: 75vw;
+    height: 100vh;
+    margin: 10px 20px;
+    
+}
+
+.info-principal h2{
+    font-size: 2em;
+    
+}
+
+.info-principal p{
+    font-size: 1.3em;
+}
+
+.datos{
+    width: 25vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.375);
+    color: rgba(255, 255, 255, 0.642);
+}
+
+.datos a{
+    text-decoration: none;
+    color: #fff;
+
+}
+tr{
+    border-bottom: grey 2px;
+    text-align: center;
+}
+td{
+    border-bottom: grey 30vh;
+    color:grey;
+    text-align: center;
+}
+table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+th{
+    background-color:goldenrod;
+    color:black ;
+    border-collapse: collapse;
+    border: 3xp solid black;
+}
+table,td,tr{
+    border: 3px solid grey;
+     border-collapse:collapse ;
+}
