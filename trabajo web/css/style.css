@@ -86,7 +86,8 @@ header{
     transition: width .3s;
 }
 
-/*cuerpo*/
+/*index cuerpo de pagina*/
+
 
 .cuerpo-pagina{
     display: flex;
@@ -135,6 +136,47 @@ header{
     color: #fff;
 
 }
+/*fin index cuerpo de pagina*/
+
+
+/*Curiosidades*/
+.curiosidades-cuerpo{
+    display: flex;
+    background-image:url("../img/fondo.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+}
+
+.curiosidades-parte-arriba{
+    display: flex;
+    text-align: center;
+}
+
+.lista-curiosidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+}
+
+.lista-curiosidades li{
+    font-size:  2.5em; ;
+    padding-bottom: 40px;
+}
+
+
+.portada-ps2{
+    padding: 10px;
+}
+
+
+
+
+/* Fin curiosidades*/
+
+
 
 /*Personajes*/
 
@@ -221,15 +263,22 @@ table,td,tr{
     width: 20vw;
     height: 3.5vh;
     font-size: 1.4em;
+    font-family: 'MedievalSharp', cursive; 
 }
 
-.cuerpo-pagina-contactanos button{
-    font-size: 1.5em;
+.enviar{ 
+    font-size: 1.8em;
+    height: 3.5vh;
     margin: 9px 0px;
     font-family: 'MedievalSharp', cursive;
     background-color:rgba(218, 165, 32, 0.914);
 }
 
+form p{
+    font-size: 1.5em;
+    color: rgba(218, 165, 32, 0.914);
+    margin: 0;
+}
 
 
 
@@ -264,9 +313,17 @@ width: 6vw;
 margin: 0.5em;
 }
 
+.imagen-red-social img:hover{
+    height: 6.8vh;
+    width: 6.8vw;
+    cursor: pointer;
+    transition: .5s;
+}
+
 
 .imagen-red-social img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
+

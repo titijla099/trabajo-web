@@ -37,8 +37,10 @@
             <label for="mensaje">Dejanos tu posteo:</label>
                 <textarea name="mensaje" cols="30" rows="10"></textarea>
             <label for="captcha">Confirme que no eres un robot: </label>
-                <input type="text" id="captcha" name="captcha" required>    
-            <button>Enviar</button>
+            <p id="generador-captcha"></p>
+                <input type="text" id ="captcha-usuario" name="captcha" required>
+                <p id="mensaje-validacion"></p> 
+                <input type="submit" class="enviar"> 
             
         </form>
     </div>
