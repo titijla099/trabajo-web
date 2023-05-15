@@ -1,19 +1,25 @@
 
 /*General*/
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
-
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-position: center center; 
+    font-family: 'MedievalSharp', cursive;  
 }
 
 /*header*/
 
 header{
     display: flex;
-    background-color:rgba(7, 77, 7, 0.752);
+    background-color:rgba(7, 77, 7, 0.903);
     height: 20vh;
-    font-family: 'MedievalSharp', cursive;
 }
 
 .logo{
@@ -31,7 +37,6 @@ header{
 .span{
     color: rgb(249, 188, 35);
 }
-
 
 .imagen-logo{
     margin: 0 10px;
@@ -63,7 +68,7 @@ header{
 }
 
 .nav li :hover{
-    color: rgba(214, 166, 44, 0.656);;
+    color: rgba(214, 166, 44, 0.656);
 }
 
 .nav li a{
@@ -86,16 +91,13 @@ header{
     transition: width .3s;
 }
 
-/*index cuerpo de pagina*/
+/*Fin estilo header*/
 
+
+/*index cuerpo de pagina*/
 
 .cuerpo-pagina{
     display: flex;
-    background-image: url("../img/fondo.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.95;
 }
 
 .info-principal{   
@@ -134,47 +136,53 @@ header{
 .datos a{
     text-decoration: none;
     color: #fff;
-
 }
-/*fin index cuerpo de pagina*/
 
-
-/*Curiosidades*/
-.curiosidades-cuerpo{
-    display: flex;
-    background-image:url("../img/fondo.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.95;
+.datos a:hover{
+    color: rgba(214, 166, 44, 0.656);
 }
+
+/*fin estilo index cuerpo de pagina*/
+
+
+/*curiosidades*/
+
 
 .curiosidades-parte-arriba{
     display: flex;
-    text-align: center;
+    justify-content: space-between;
+    background-image: url(../img/fondo\ de\ lista\ de\ curiosidades.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 2%;
+    height: 100vh;  
 }
 
-.lista-curiosidades{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40vw;
-}
 
 .lista-curiosidades li{
-    font-size:  2.5em; ;
-    padding-bottom: 40px;
+    font-size:  2.2em; 
+    padding-bottom: 1.5em;
+    list-style: none;
+}
+
+.lista-curiosidades li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);    
+    font-weight: bold;
+}
+
+.lista-curiosidades li a:hover{
+    color:rgb(255, 214, 109);;
 }
 
 
-.portada-ps2{
-    padding: 10px;
+.curiosidades-parte-abajo{
+    padding: 5%;
+    background-color: rgba(255, 183, 0, 0.625); 
 }
 
 
-
-
-/* Fin curiosidades*/
+/* Fin de estilo curiosidades*/
 
 
 
@@ -183,11 +191,6 @@ header{
 .cuerpo-pagina-personajes{
     display: flex;
     justify-content: center;
-    background-image:url("../img/fondo.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.95;
 }
 
 .info-personajes{ 
@@ -232,12 +235,6 @@ table,td,tr{
 .cuerpo-pagina-contactanos{
     display: flex;
     justify-content: center;
-    background-image: url("../img/fondo.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.95;
-
 }
 
 .cuerpo-pagina-contactanos form{
@@ -246,14 +243,14 @@ table,td,tr{
     justify-content: space-between;
     align-items: center;
     font-family: 'MedievalSharp', cursive;
-    width: 40vw;
-    height: 80vh;
-    margin: 10px 0;
+    width: 40vw;    
+    margin: 50px 0;
     background-color: rgba(14, 50, 14, 0.705);
 
 }
 
 .cuerpo-pagina-contactanos form label{
+    margin: 0.6em;
     font-size: 2em;
     font-weight: bold;
     color: rgb(214, 166, 44);
@@ -268,8 +265,7 @@ table,td,tr{
 
 .enviar{ 
     font-size: 1.8em;
-    height: 3.5vh;
-    margin: 9px 0px;
+    margin: 20px 0px;
     font-family: 'MedievalSharp', cursive;
     background-color:rgba(218, 165, 32, 0.914);
 }
@@ -280,7 +276,7 @@ form p{
     margin: 0;
 }
 
-
+/*Fin estilo contactanos*/
 
 
 
@@ -294,7 +290,7 @@ form p{
 /*footer*/
 
 footer{
-    background-color:rgba(7, 77, 7, 0.752);
+    background-color:rgba(7, 77, 7, 0.903); 
 }
 
 .redes-sociales{
