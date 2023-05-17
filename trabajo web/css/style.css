@@ -155,12 +155,12 @@ header{
     background-size: cover;
     background-position: center center;
     padding: 2%;
-    height: 100vh;  
+    height: 80vh;  
 }
 
 
 .lista-curiosidades li{
-    font-size:  2.2em; 
+    font-size:  2.4em; 
     padding-bottom: 1.5em;
     list-style: none;
 }
@@ -178,7 +178,13 @@ header{
 
 .curiosidades-parte-abajo{
     padding: 5%;
-    background-color: rgba(255, 183, 0, 0.625); 
+    background-color: rgba(255, 183, 0, 0.625);
+}
+.curiosidades-parte-abajo h3 {
+    font-size: 2em;
+}
+.curiosidades-parte-abajo p{
+    font-size: 1.5em;
 }
 
 
@@ -195,8 +201,8 @@ header{
 
 .info-personajes{ 
     width: 75vw;
-    margin: 10px 20px;
-    margin-top: 25px;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 table{
@@ -245,7 +251,7 @@ table,td,tr{
     font-family: 'MedievalSharp', cursive;
     width: 40vw;    
     margin: 50px 0;
-    background-color: rgba(14, 50, 14, 0.705);
+    background-color: rgba(14, 50, 14, 0.848);
 
 }
 
